@@ -39,24 +39,41 @@ On Linux:
 python3 -m pip install rasterio shapely pyproj scipy numpy
 
 Activate the plugin in QGIS
+
 Open QGIS
+
 Go to Plugins -> Manage and Install Plugins
+
 Select the Installed tab
+
 Search for Drone Flight Planner and check the box
+
 The plugin will appear in the Plugins -> Drone Flight Planner menu and toolbar
 
 Usage
+
 Open the plugin from Plugins -> Drone Flight Planner
+
 Input Tab:
+
 Select the DTM GeoTIFF file
+
 Select the survey area (QGIS polygon layer or KML file)
+
 Leave EPSG=0 for auto-detection, or specify the code if needed
+
 Flight Parameters Tab:
+
 Set AGL, FOV, Overlap, Sidelap
+
 The preview shows calculated swath and spacing in real-time
+
 Output Tab:
+
 Specify the KML save path
+
 Enable "Load KML in QGIS upon completion"
+
 Click Generate Flight Plan
 
 Parameters
