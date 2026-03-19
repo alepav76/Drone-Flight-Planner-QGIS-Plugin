@@ -77,20 +77,33 @@ Enable "Load KML in QGIS upon completion"
 Click Generate Flight Plan
 
 Parameters
+
 AGL (Default 50 m): Flight altitude above ground
+
 FOV (Default 70 deg): Camera field of view
+
 Overlap (Default 70%): Longitudinal overlap
+
 Sidelap (Default 70%): Lateral overlap
+
 DTM Step (Default 5 m): Sampling resolution
+
 Smoothing (Default 30 m): Gaussian sigma for altitude smoothing
+
 EPSG (Default 0): DTM CRS if not automatically recognized
 
 Troubleshooting
+
 "No module named rasterio": Install dependencies (see step 2)
+
 "DTM CRS could not be determined": Specify the EPSG code manually (e.g., 32633)
+
 "No strips generated": Verify that the survey area overlaps with the DTM extent
+
 "KML does not load": Try adding it manually via Layer -> Add Vector Layer
 
 AUTHORS AND LICENSE
+
 Authors: A. Pavan, P. Paganini, M. Potleca. License: GNU GPL v3.
+
 Developed with the assistance of Claude (Anthropic AI) to optimize code structure, performance, and GUI integration.
